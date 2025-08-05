@@ -246,7 +246,7 @@ function App() {
                     {/* Join button positioned in bottom right corner */}
                     <button
                       onClick={() => toggleJoinClub(club.id)}
-                      className={`absolute bottom-4 right-5 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ${
+                      className={`absolute bottom-2 right-4 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ${
                         joinedClubs.includes(club.id)
                           ? 'bg-gray-800 text-white hover:bg-gray-700 shadow-md'
                           : 'bg-gray-900 text-white hover:bg-gray-800 shadow-md'
